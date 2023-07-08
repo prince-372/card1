@@ -261,7 +261,7 @@ padding-top: 4px;
     margin-bottom: 20px;
 }
 
-.text-align {
+.text-align-center {
     text-align: center;
 }
 
@@ -884,7 +884,9 @@ line-height: normal;
     }
 
     .menu {
-        color: white;
+        color: black;
+        background-color:khaki;
+        border-radius: 3px;
         z-index: 2;
         position: fixed;
         right: 15px;
