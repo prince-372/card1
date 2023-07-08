@@ -226,6 +226,16 @@ line-height: 135%;
 letter-spacing: 0em;
 padding-top: 4px;
 }
+.f-nav-free{
+    color: #01C8FF;
+    font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 135%;
+letter-spacing: 0em;
+padding-top: 4px;
+}
 
 .font {
     font-family: 'Poppins';
@@ -542,12 +552,6 @@ line-height: normal;
     font-weight: 700;
     line-height: 150%
 }
-
-.tt {
-    width: 91px;
-}
-
-
 .ml-300 {
     margin-left: 300px;
 }
