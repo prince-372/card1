@@ -817,55 +817,6 @@ line-height: normal;
         margin-bottom: 0;
     }
 }
-
-@media(max-width:400px) {
-    .pl1 {
-        padding-left: 20px;
-    }
-
-    .pl2 {
-        padding-left: 25px;
-    }
-
-    .pl3 {
-        padding-left: 45px;
-    }
-
-    .pading11 {
-        padding-left: 1px;
-    }
-
-
-}
-
-@media(max-width:720px) {
-    .pl1 {
-        padding-left: 20px;
-    }
-
-    .pl2 {
-        padding-left: 25px;
-    }
-
-    .pl3 {
-        padding-left: 45px;
-    }
-}
-
-@media(min-width:992px) {
-    .pl1 {
-        padding-left: 20px;
-    }
-
-    .pl2 {
-        padding-left: 25px;
-    }
-
-    .pl3 {
-        padding-left: 45px;
-    }
-}
-
 @media(max-width: 992px) {
     .nav-res {
 
