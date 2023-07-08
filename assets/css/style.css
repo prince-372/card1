@@ -167,6 +167,9 @@
 .mb {
     margin-top: 21px;
 }
+.mt-50{
+    margin-top: 50px;
+}
 
 .mt-8 {
     margin-top: 12px;
@@ -526,8 +529,12 @@ line-height: normal;
 
 }
 
-.p-showmore {
-    padding: 13px 24px 13px 23px;
+.f-showmore {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     color: #FFF;
     text-align: center;
     font-size: 12px;
@@ -689,6 +696,9 @@ line-height: normal;
         padding-left: 12px;
         padding-right: 12px;
     }
+    .lg-mt-100{
+        margin-top: 100px;
+    }
 }
 
 @media(min-width:992px) {
@@ -697,7 +707,7 @@ line-height: normal;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .mt-126{
+    .lg-mt-126{
         margin-top: 126px;
     }
 }
