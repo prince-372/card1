@@ -237,6 +237,16 @@ line-height: 135%;
 letter-spacing: 0em;
 padding-top: 4px;
 }
+.f-nav-free{
+    color: #01C8FF;
+    font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 135%;
+letter-spacing: 0em;
+padding-top: 4px;
+}
 
 .font {
     font-family: 'Poppins';
@@ -272,7 +282,7 @@ padding-top: 4px;
     margin-bottom: 20px;
 }
 
-.text-align {
+.text-align-center {
     text-align: center;
 }
 
@@ -553,12 +563,6 @@ line-height: normal;
     font-weight: 700;
     line-height: 150%
 }
-
-.tt {
-    width: 91px;
-}
-
-
 .ml-300 {
     margin-left: 300px;
 }
@@ -816,51 +820,85 @@ line-height: normal;
         margin-bottom: 0;
     }
 }
-@media (max-width:768px) {
-    label[for="icon"] {
-        width: 30px;
-        height: 22px;
+
+@media(max-width:400px) {
+    .pl1 {
+        padding-left: 20px;
+    }
+
+    .pl2 {
+        padding-left: 25px;
+    }
+
+    .pl3 {
+        padding-left: 45px;
+    }
+
+    .pading11 {
+        padding-left: 1px;
+    }
+
+
+}
+
+@media(max-width:720px) {
+    .pl1 {
+        padding-left: 20px;
+    }
+
+    .pl2 {
+        padding-left: 25px;
+    }
+
+    .pl3 {
+        padding-left: 45px;
+    }
+}
+
+@media(min-width:992px) {
+    .pl1 {
+        padding-left: 20px;
+    }
+
+    .pl2 {
+        padding-left: 25px;
+    }
+
+    .pl3 {
+        padding-left: 45px;
+    }
+}
+
+@media(max-width: 992px) {
+    .nav-res {
+
+        width: 100%;
+        height: 125%;
+        background-color: rgb(94, 93, 81);
+        /* background-image: url(/assets/images/background.png); */
         display: flex;
+        align-items: center;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         cursor: pointer;
         position: fixed;
-        z-index: 4;
-        right: 20px;
-        top: 20px;
-    }
-
-    label[for="icon"]>span {
-        width: 100%;
-        height: 5px;
-        background-color: rgb(236, 226, 209);
-        border-radius: 2px;
-    }
-
-div.phone-view {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 100%;
-    background-color: rgb(8, 16, 164);
-    position: fixed;
-    top: 0;
-    right: -100%;
-    transition: all 500ms linear;
-    z-index: 1;
-}
+        min-height: 100vh;
+        top: -100px;
+        right: -100%;
+        transition: all 500ms linear;
+        z-index: 1;
 
 input[type="checkbox"]:checked~.phone-view {
     right: 0;
 }
 
-.icon {
-    z-index: 2;
-    position: fixed;
-    right: 15px;
-}
+    .menu {
+        color: white;
+        z-index: 2;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
 
 .flex-direction-col {
     display: flex;
